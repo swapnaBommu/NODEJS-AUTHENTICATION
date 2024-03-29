@@ -1,0 +1,124 @@
+/*Nav bar*/
+#my-nav{
+    background-color: #1e1b55 !important;
+    color:white;
+    box-shadow: rgba(149,157,165,0.2) !important;
+}
+.container{
+    background-color:#181642 !important;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    max-width: 1700px !important;
+}
+.lbtn {
+    background-color: #FF2C90 !important;
+    color: #FFFFFF !important;
+}
+.buttons{
+    /* background-color: #FF2C90; */
+    border: 3px yellow;
+    color: white !important;
+}
+.main{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+}
+.logo{
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+}
+/*login and register*/
+.form-container{
+    background-color: #181642;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginSignupHeader {
+    font-weight: 600;
+    font-size: 30px;
+    color: #1117e7; 
+}
+.loginForm {
+    background-color: #fff;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 50px auto;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+}
+.field {
+    width: 100%;
+}
+.field input {
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 15px;
+    border-bottom:1px solid #ef7917;
+}
+input::placeholder{
+    color:rgb(175,175,175);
+}
+.field input:focus {
+outline: none;
+}
+.field button {
+    width: 100%;
+    margin-top: 20px;
+    background: #ef7917;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 20px;
+    padding: 9px;
+    border: none;
+    outline: none;
+}
+  .field button:hover {
+    cursor: pointer;
+  }
+  .field button:disabled {
+    cursor: not-allowed;
+  }
+  
+
+.radio{
+    margin-top: 20px;
+    color: #1117e7;
+    font-size: 20px;
+}
+.radio input{
+    margin: 5px;
+   
+}
+.buttons .btn a{
+    text-decoration: none;
+    color: white !important;
+}
+/* job listing page */
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top:50px;
+}
+.card{
+    min-width: 20rem !important;
+    min-height: 20rem !important;
+}
